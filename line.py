@@ -1,5 +1,6 @@
 def line():
     import math
+    print("TO DO")
     a=float(input("Ingrese el coeficiente A: "))
     b=float(input("Ingrese el coeficiente B: "))
     x1=float(input("Ingrese el coeficiente X1: "))
