@@ -1,6 +1,6 @@
 def leap_year():
     leap=int(input("Ingrese un año: "))
-    if leap%4==0 or leap%400==0:
+    if (leap%4==0 and leap%100!=0) or leap%400==0:
         bisiesto="es bisiesto"
     else:  
         bisiesto="no es bisiesto"
